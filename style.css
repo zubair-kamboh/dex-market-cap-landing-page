@@ -85,3 +85,79 @@ nav ul .nav-link {
   line-height: 150%;
   width: 469px;
 }
+
+.input-container {
+  border: 1px solid #e5ecf2;
+  box-sizing: border-box;
+  border-radius: 40px;
+  width: 540px;
+  height: 65px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.input-inner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-container input {
+  border: none;
+  outline: none;
+  padding-left: 0.5rem;
+}
+
+.logos-container img {
+  width: 7rem;
+}
+
+.hero-right-container {
+  position: relative;
+}
+
+.hero-right-container .phone,
+.hero-right-container .eclipse {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero-right-container .eclipse {
+  z-index: -10;
+  width: 504px;
+  height: 504px;
+}
+
+.hero-right-container .a,
+.hero-right-container .b,
+.hero-right-container .c,
+.hero-right-container .d {
+  position: absolute;
+}
+
+.hero-right-container .a {
+  left: 28%;
+  bottom: 14%;
+  transform: translate(-28%, -14%);
+  z-index: 100;
+}
+.hero-right-container .b {
+  left: 10%;
+  top: 30%;
+  transform: translate(-10%, -30%);
+  z-index: 100;
+}
+.hero-right-container .c {
+  right: 20%;
+  top: 0%;
+  transform: translate(-20%, -0%);
+  z-index: 100;
+}
+.hero-right-container .d {
+  right: 12%;
+  bottom: 15%;
+  transform: translate(-12%, -15%);
+  z-index: 100;
+}
