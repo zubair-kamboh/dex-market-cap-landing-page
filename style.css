@@ -14,7 +14,7 @@
 }
 
 body {
-  background-color: var(--Neutral60);
+  background-color: var(--white);
   font-family: var(--space-grotesk);
   font-weight: 700;
 }
@@ -24,10 +24,64 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: var(--roboto);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19.0244px;
+  color: #6d6e71;
 }
 .logo-container .logo-img {
   margin-right: 0.2rem;
 }
 
-.side-margins {
+nav ul li {
+  font-family: var(--space-grotesk);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.9rem;
+  color: var(--Neutral60);
+}
+
+nav ul .nav-link {
+  margin-left: 1rem;
+}
+
+.signin-btn {
+  font-style: normal;
+  font-weight: bold;
+  color: var(--PrimaryMain);
+}
+.signin-btn:hover {
+  color: #0e49be;
+}
+
+.signup-btn {
+  background-color: var(--PrimaryMain);
+  color: #ffffff;
+  border-radius: 40px;
+  padding: 10px 28px;
+  font-style: normal;
+  font-weight: bold;
+  transition: 0.3s ease-in;
+}
+.signup-btn:hover {
+  background-color: #0e49be;
+  color: var(--white);
+}
+
+.hero-container .title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  width: 553px;
+  font-size: 56px;
+  line-height: 120%;
+}
+
+.hero-container .description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  width: 469px;
 }

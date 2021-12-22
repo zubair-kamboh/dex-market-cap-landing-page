@@ -15,10 +15,10 @@
   </head>
   <body>
     <!-- Hero Section Start -->
-    <section class="hero">
+    <main class="hero">
       <!-- navbar -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-xxl side-margins">
+      <nav class="navbar navbar-expand-lg navbar-light py-3">
+        <div class="container side-margins">
           <a class="navbar-brand logo-container" href="#">
             <img
               src="./assets/images/Logo.png"
@@ -39,7 +39,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav me-auto ms-5 mb-2 mb-lg-0">
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
@@ -61,9 +61,7 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >Lorem</a
-                >
+                <a class="nav-link" aria-current="page" href="#">Lorem</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Lorem</a>
@@ -73,13 +71,62 @@
               </li>
             </ul>
             <div class="nav-btns">
-              <button class="btn" type="submit">Sign In</button>
-              <button class="btn" type="submit">SignUp</button>
+              <button class="btn signin-btn" type="submit">Sign In</button>
+              <button class="btn signup-btn" type="submit">SignUp</button>
             </div>
           </div>
         </div>
       </nav>
-    </section>
+
+      <div class="hero-container my-5 py-5">
+        <div class="container">
+          <div class="row">
+            <div
+              class="
+                col-lg-6 col-md-6 col-sm-10
+                d-flex
+                justify-content-center
+                flex-column
+              "
+            >
+              <h1 class="title mb-4">Lorem Ipsum Dolor Sit Amet Adipscing</h1>
+              <p class="description mb-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo
+                pulvinar sem ante feugiat suscipit aenean gravida quis
+                tincidunt.
+              </p>
+
+              <div class="input-container mb-4">
+                <img src="./assets/images/email-icon.jpg" alt="" />
+                <input
+                  type="text"
+                  name="email-input"
+                  class="email-input"
+                  placeholder="Enter your email address"
+                />
+                <button class="btn signup-btn" type="submit">
+                  Get Started
+                </button>
+              </div>
+            </div>
+            <div
+              class="
+                col-lg-6 col-md-6 col-sm-10
+                d-flex
+                justify-content-end
+                align-items-center
+              "
+            >
+              <img src="./assets/images/Group 2.png" alt="" />
+              <!-- <img src="./assets/images/Cryptocurrency.png" alt="" />
+              <img src="./assets/images/Cryptocurrency-1.png" alt="" />
+              <img src="./assets/images/Cryptocurrency-2.png" alt="" />
+              <img src="./assets/images/Cryptocurrency-3.png" alt="" /> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
     <!-- Hero Section End -->
 
     <script
