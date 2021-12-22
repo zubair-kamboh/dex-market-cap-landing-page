@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Space+Grotesk:wght@400;500;700&display=swap');
+:root {
+  --white: #ffffff;
+  --Neutral100: #0a0a0a;
+  --Neutral60: #868fa0;
+  --Neutral50: #98a2ae;
+  --Neutral40: #cfd8e1;
+  --PrimaryMain: #0054f8;
+  --Neutral90: #0e1f42;
+  --Neutral20: #f3f6fa;
+  --Red500: #ea3943;
+  --roboto: 'Roboto', sans-serif;
+  --space-grotesk: 'Space Grotesk', sans-serif;
+}
+
+body {
+  background-color: var(--Neutral60);
+  font-family: var(--space-grotesk);
+  font-weight: 700;
+}
+
+/* hero section start*/
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-container .logo-img {
+  margin-right: 0.2rem;
+}
+
+.side-margins {
+}
