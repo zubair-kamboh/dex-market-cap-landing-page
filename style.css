@@ -162,6 +162,86 @@ nav ul .nav-link {
   z-index: 100;
 }
 
+/* slider start */
+.slider-section-container .slider-title {
+  width: 371px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 150%;
+  color: var(--Neutral100);
+}
+.slider-section-container .slider-description {
+  width: 469px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--Neutral50);
+}
+
+.slider-section-container .card-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-head .card-head-first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-head-first img {
+  width: 40px;
+  height: 40px;
+}
+.card-head-first h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  margin: 0px 0px 0px 0.5rem;
+  color: var(--Neutral100);
+}
+
+.slider-section-container .card-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  padding: 0px;
+}
+.slider-section-container .card-body .title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 150%;
+  color: var(--Neutral50);
+}
+.slider-section-container .card-body .price-value {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--Neutral100);
+}
+.price-container-left {
+  text-align: start;
+}
+.price-container-right {
+  text-align: end;
+}
+
+.price-red-value {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--Red500);
+  cursor: pointer;
+}
+/* slider end */
+
 /* get read start */
 .getready-container .getready-title {
   font-style: normal;
@@ -236,8 +316,134 @@ nav ul .nav-link {
   margin-left: 0.5rem;
 }
 
-/* .currency-dollar {
-  margin-right: -50%;
-} */
-
 /* Feature 1 Coin End */
+
+/* Blue Section Start */
+.blue-container .most-inner {
+  height: 373px;
+  background: #0e1f42;
+  border-radius: 24px;
+  color: var(--white);
+  position: relative;
+}
+.blue-container .most-inner::before {
+  content: '';
+  position: absolute;
+  background-image: url('assets/images/blue-section-vector.svg');
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  /* z-index: 100; */
+}
+.blue-container .most-inner h1 {
+  position: absolute;
+  width: 414px;
+  height: 120px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 150%;
+
+  color: #ffffff;
+}
+.blue-container .most-inner img {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+}
+
+.blue-container .most-inner .blue-a {
+  left: 19%;
+  bottom: 25%;
+}
+
+.blue-container .most-inner .blue-b {
+  left: 175px;
+  top: 68px;
+}
+.blue-container .most-inner .blue-c {
+  right: 19%;
+  bottom: 25%;
+}
+.blue-container .most-inner .blue-d {
+  right: 175px;
+  top: 68px;
+}
+
+/* Blue Section End */
+
+/* Footer starts */
+.footer-logo {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19.0244px;
+  color: #6d6e71;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-decoration: none;
+}
+.footer-logo:hover {
+  color: #6d6e71;
+}
+.footer-logo img {
+  margin-right: 0.3rem;
+}
+
+.footer-description {
+  width: 371px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--Neutral60);
+}
+
+.footer-navlinks .features {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 150%;
+  color: var(--Neutral100);
+}
+
+.footer-navlinks .footer-navlink a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--Neutral100);
+}
+
+footer li {
+  list-style-type: none;
+}
+footer a {
+  text-decoration: none;
+}
+
+.copyright-container {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--Neutral100);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.copyright-container .copyright-right a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--Neutral100);
+}
+.privacy-policy {
+  margin-right: 0.5rem;
+}
+/* Footer ends */
