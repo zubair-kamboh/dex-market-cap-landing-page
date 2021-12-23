@@ -162,6 +162,110 @@ nav ul .nav-link {
   z-index: 100;
 }
 
+/* Table start */
+.table-section {
+  background-color: var(--Neutral20);
+}
+.table-section .mb0 {
+  margin-bottom: 0px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.table-top-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 150%;
+  color: var(--Neutral100);
+}
+.table-top-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--Neutral60);
+}
+.table-section table {
+  border: 2px solid var(--Neutral20) !important;
+  background-color: var(--white);
+  border-radius: 24px;
+}
+.table-section .table > :not(:first-child) {
+  border: 2px solid var(--Neutral20) !important;
+}
+
+.table-section table .id {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--Neutral100);
+}
+
+.table-heading-style {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--Neutral50);
+}
+
+.name-td {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.name-td .currency-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--Neutral100);
+  margin: 0px 6px;
+}
+.name-td .currency-short {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: var(--Neutral50);
+}
+
+.price-td {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: var(--Neutral100);
+}
+
+.name-td img {
+  width: 32px;
+  height: 32px;
+}
+
+.dataTables_info {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: var(--Neutral100);
+}
+.table-section .pagination {
+  justify-content: flex-end;
+}
+.table-section .pagination .page-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  margin: 0px 4px;
+}
+.dataTables_length label,
+.dataTables_filter label {
+  display: block;
+}
+
+/* Table end */
+
 /* slider start */
 .slider-section-container .slider-title {
   width: 371px;
