@@ -161,3 +161,83 @@ nav ul .nav-link {
   transform: translate(-12%, -15%);
   z-index: 100;
 }
+
+/* get read start */
+.getready-container .getready-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 150%;
+
+  color: var(--Neutral100);
+}
+.getready-container .getready-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--Neutral60);
+}
+.getready-card-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 150%;
+  color: var(--Neutral100);
+}
+.getready-card-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+
+  color: var(--Neutral50);
+}
+/* get read end */
+
+/* Feature 1 Coin Start */
+
+.coin-container .coin-header img {
+  width: 100px;
+  height: 100px;
+}
+.coin-container .coin-header .title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  color: var(--PrimaryMain);
+}
+.coin-container .coin-subtitle {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 150%;
+  color: var(--Neutral100);
+}
+.coin-container .coin-description {
+  width: 465px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 150%;
+  color: var(--Neutral50);
+}
+
+.learnmore-btn {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+}
+.learnmore-btn img {
+  margin-left: 0.5rem;
+}
+
+/* .currency-dollar {
+  margin-right: -50%;
+} */
+
+/* Feature 1 Coin End */
